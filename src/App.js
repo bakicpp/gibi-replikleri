@@ -59,7 +59,7 @@ const items = [
       </div>
         <br></br>
         <div className='flex justify-center place-content-center '>
-        <button className='text-white transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 rounded w-24 h-15' onClick={handleClick}>Üret</button>
+        <button className='text-white transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 rounded w-24 h-15' onClick={handleClick}>Oluştur</button>
         </div>
       </div>
   
