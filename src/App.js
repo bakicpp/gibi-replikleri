@@ -5,19 +5,7 @@ import logo from './gibi.png'
 
 function App() {
 
-
-  const [num, setNum] = useState(0);
-
-  function randomNumberInRange(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-  }
-
-  const handleClick = () => {
-    setNum(randomNumberInRange(1, 7));
-  };
-
-
-  
+    
 const items = [
   "Kardeşim ben senin yılgın bir hoşgörüyle beni benimsemene mi kaldım?",
   "Kimsenin hiçbir şey bilmediği yerde bir insan her şeyi bilebilir",
@@ -42,7 +30,15 @@ const items = [
 
 ];
 
+  const [num, setNum] = useState(0);
 
+  function randomNumberInRange(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  const handleClick = () => {
+    setNum(randomNumberInRange(1, 19));
+  };
 
     return(
     
